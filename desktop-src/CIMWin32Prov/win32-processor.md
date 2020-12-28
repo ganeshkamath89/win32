@@ -92,7 +92,7 @@ class Win32_Processor : CIM_Processor
   string   AssetTag;
   uint16   Availability;
   string   Caption;
-  uint32   Characteristics;
+  uint32   Characteristics[];
   uint32   ConfigManagerErrorCode;
   boolean  ConfigManagerUserConfig;
   uint16   CpuStatus;
